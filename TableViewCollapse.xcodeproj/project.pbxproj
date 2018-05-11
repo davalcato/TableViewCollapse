@@ -12,6 +12,10 @@
 		7562976620A13B5700CF81F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7562976420A13B5700CF81F2 /* Main.storyboard */; };
 		7562976820A13B5B00CF81F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7562976720A13B5B00CF81F2 /* Assets.xcassets */; };
 		7562976B20A13B5B00CF81F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7562976920A13B5B00CF81F2 /* LaunchScreen.storyboard */; };
+		7562977420A13FDC00CF81F2 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562977320A13FDC00CF81F2 /* Section.swift */; };
+		7562977620A140EF00CF81F2 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562977520A140EF00CF81F2 /* ExpandableHeaderView.swift */; };
+		7562977C20A52E4300CF81F2 /* SimpleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562977A20A52E4300CF81F2 /* SimpleVC.swift */; };
+		7562977D20A52E4300CF81F2 /* SimpleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7562977B20A52E4300CF81F2 /* SimpleVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7562976720A13B5B00CF81F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7562976A20A13B5B00CF81F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7562976C20A13B5B00CF81F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7562977320A13FDC00CF81F2 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		7562977520A140EF00CF81F2 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		7562977A20A52E4300CF81F2 /* SimpleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVC.swift; sourceTree = "<group>"; };
+		7562977B20A52E4300CF81F2 /* SimpleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		7562975F20A13B5700CF81F2 /* TableViewCollapse */ = {
 			isa = PBXGroup;
 			children = (
+				7562977720A52DD400CF81F2 /* VCfiles */,
+				7562977220A13FA800CF81F2 /* ExpandableHeaderView */,
 				7562976020A13B5700CF81F2 /* AppDelegate.swift */,
 				7562976220A13B5700CF81F2 /* ViewController.swift */,
 				7562976420A13B5700CF81F2 /* Main.storyboard */,
@@ -62,6 +72,24 @@
 				7562976C20A13B5B00CF81F2 /* Info.plist */,
 			);
 			path = TableViewCollapse;
+			sourceTree = "<group>";
+		};
+		7562977220A13FA800CF81F2 /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				7562977320A13FDC00CF81F2 /* Section.swift */,
+				7562977520A140EF00CF81F2 /* ExpandableHeaderView.swift */,
+			);
+			path = ExpandableHeaderView;
+			sourceTree = "<group>";
+		};
+		7562977720A52DD400CF81F2 /* VCfiles */ = {
+			isa = PBXGroup;
+			children = (
+				7562977A20A52E4300CF81F2 /* SimpleVC.swift */,
+				7562977B20A52E4300CF81F2 /* SimpleVC.xib */,
+			);
+			path = VCfiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7562977D20A52E4300CF81F2 /* SimpleVC.xib in Resources */,
 				7562976B20A13B5B00CF81F2 /* LaunchScreen.storyboard in Resources */,
 				7562976820A13B5B00CF81F2 /* Assets.xcassets in Resources */,
 				7562976620A13B5700CF81F2 /* Main.storyboard in Resources */,
@@ -135,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7562977420A13FDC00CF81F2 /* Section.swift in Sources */,
+				7562977620A140EF00CF81F2 /* ExpandableHeaderView.swift in Sources */,
 				7562976320A13B5700CF81F2 /* ViewController.swift in Sources */,
+				7562977C20A52E4300CF81F2 /* SimpleVC.swift in Sources */,
 				7562976120A13B5700CF81F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

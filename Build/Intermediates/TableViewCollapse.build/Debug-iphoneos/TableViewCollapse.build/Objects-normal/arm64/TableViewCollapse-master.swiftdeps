@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.1 (swiftlang-902.0.53 clang-902.0.39.2)"
+options: "e9e7f6b7062dee94e03a297ce54c7f36"
+build_time: [1525744609, 7813000]
+inputs:
+  "/Users/davalcato/Desktop/iOS/TableViewCollapse/TableViewCollapse/ViewController.swift": [1525744599, 0]
+  "/Users/davalcato/Desktop/iOS/TableViewCollapse/TableViewCollapse/AppDelegate.swift": [1525744599, 0]

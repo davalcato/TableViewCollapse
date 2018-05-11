@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1.1 (swiftlang-902.0.53 clang-902.0.39.2)"
+options: "e6e72484b8768630b2aae4dd26cd65d3"
+build_time: [1526004278, 943949000]
+inputs:
+  "/Users/davalcato/Desktop/iOS/TableViewCollapse/TableViewCollapse/ExpandableHeaderView/Section.swift": [1525745946, 0]
+  "/Users/davalcato/Desktop/iOS/TableViewCollapse/TableViewCollapse/ExpandableHeaderView/ExpandableHeaderView.swift": [1525746829, 0]
+  "/Users/davalcato/Desktop/iOS/TableViewCollapse/TableViewCollapse/ViewController.swift": [1526003939, 0]
+  "/Users/davalcato/Desktop/iOS/TableViewCollapse/TableViewCollapse/VCfiles/SimpleVC.swift": [1526003691, 0]
+  "/Users/davalcato/Desktop/iOS/TableViewCollapse/TableViewCollapse/AppDelegate.swift": [1525744599, 0]

@@ -10,10 +10,21 @@ import UIKit
 
 class SimpleVC: UIViewController {
 
+    @IBOutlet var movieImage: UIImageView!
+    var imageName: String!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.movieImage.image = UIImage(named: imageName)
+        self.title = imageName
+        
+    }
+    
+    func customInit(imageName: String) {
+        self.imageName = imageName  
+        
     }
 
     override func didReceiveMemoryWarning() {
